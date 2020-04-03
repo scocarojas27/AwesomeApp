@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AwesomeApp.MyPage">
+    <StackLayout Margin="20,35,20,20">
+        <Label Text="Mazda 3 Modelo 2006" TextColor="Black" FontAttributes="Bold"/>
+        <Image Source="https://http2.mlstatic.com/D_NQ_NP_694949-MCO29832625949_042019-O.webp"
+               HeightRequest="300" />
+        <Label Text="Vendedor: Pedro Pérez &#10; Precio: $20000000 &#10; Modelo: 2006 &#10; Kilometraje: 10000 KM &#10; Tecnomecática: hasta enro del 2021 &#10; Seguro: hasta julio del 2022" TextColor="Black"/>
+        <Button Text="Chatear con el vendedor" BackgroundColor="DarkBlue" FontAttributes="Bold" TextColor="White"
+                Clicked="OnDisplayAlertButtonClicked"/>
+    </StackLayout>
+</ContentPage>

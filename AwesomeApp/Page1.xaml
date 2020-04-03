@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AwesomeApp.Page1">
+    <ContentPage.Content>
+        <StackLayout Margin="20,35,20,20">
+            <Label Text="Laptop HP i5 8 gb ram" TextColor="Black" FontAttributes="Bold"/>
+            <Image Source="https://media.aws.alkosto.com/media/catalog/product/cache/6/image/69ace863370f34bdf190e4e164b6e123/1/9/192545451918-02.jpg"
+               HeightRequest="300" />
+            <Label Text="Vendedor: Pepa Pérez &#10; Precio: $1000000 &#10; Procesador: i5 6ta generación &#10; RAM: 8 gb &#10; ROM: 500 gb &#10; Tarjeta de video: NVIDIA mx110 2gb" TextColor="Black"/>
+            <Button Text="Chatear con el vendedor" BackgroundColor="DarkBlue" FontAttributes="Bold" TextColor="White"
+                Clicked="OnDisplayAlertButtonClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
